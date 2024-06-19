@@ -1,0 +1,87 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Center the registration form */
+  .registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  /* Form container */
+  .form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  /* Form heading */
+  .form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    background-color: grey;
+  }
+  
+  /* Form inputs */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #4caf50; /* Green border color on focus */
+  }
+  
+  /* Register button */
+  .register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50; /* Green background */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .register-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Already have an account link */
+  .already-account {
+    text-align: center;
+    margin-top: 20px;
+    color: #666666;
+  }
+  
+  .already-account a {
+    color: #4caf50; /* Green link color */
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  .already-account a:hover {
+    text-decoration: underline;
+  }
+  
